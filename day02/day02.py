@@ -1,12 +1,14 @@
-print(2*2*2*2*2)
-print(2**5)
-print(pow(2,5))
-print(divmod(9,5))
-print(type(divmod(9,5)))
-test = 1, 2  #packing 한다고 함
-print(type(test))
-print(test)
-print(test[1])
-a, b = test   #unpacking
-print(a)
-print(b)
+#number = 0b10011010
+#number = 0x9A
+#number = 0o232
+#print(number)
+
+number = 154
+#print(bin(number))
+#print(hex(number))
+#print(oct(number))
+
+print(ord(" "))   # 아스키코드 space  ->  십진수 32
+print(hex(ord(" ")))   #  아스키코드 space -> 16진수 20
+print(ord("1"))
+
